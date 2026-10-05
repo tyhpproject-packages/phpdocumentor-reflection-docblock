@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpdocumentor-reflection-docblock",
+    "description": "Tyhp type definitions for phpdocumentor/reflection-docblock 6.0.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "6.0.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpdocumentor-reflection-docblock-impl": "~6.0.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpdocumentor-reflection-docblock-impl"
+        }
+    }
+}
